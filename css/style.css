@@ -9,29 +9,28 @@ html,body{
 	height:100%;
 }
 
-html{
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 body{
   font:normal 75% Arial, Helvetica, sans-serif;
 }
 
-canvas{
-  display:block;
-  vertical-align:bottom;
-}
 h1 { font-family: 'Gotham', sans-serif; 
     font-weight: 100;
     font-size: 3rem; 
-    line-height: 1.4em; 
+    line-height: 1em; 
     text-align: center;
     }
-section { width: 75%; margin: 10em auto;}
+section { width: 75%; margin: 5em auto;}
 .pw-logo {
-    width: 20em;
+    width: 4em;
     display: block;
-    padding: 2em;
+    padding: 0em;
+    margin: auto;
+}
+.illustration {
+    width: 32em;
+    display: block;
+    padding: 0em;
+    
     margin: auto;
 }
 /* ---- particles.js container ---- */
